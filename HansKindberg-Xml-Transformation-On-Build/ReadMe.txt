@@ -1,1 +1,1 @@
-﻿https://github.com/HansKindberg-Net/HansKindberg-Xml-Transformation-Temporary#1-hanskindberg-xml-transformation-on-build
+﻿https://github.com/HansKindberg-Net/HansKindberg-Xml-Transformation#1-hanskindberg-xml-transformation-on-build
