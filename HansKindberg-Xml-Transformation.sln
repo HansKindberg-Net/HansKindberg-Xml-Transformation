@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{E35D87DB-FD15-42CA-99A6-9F8EF288E204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{26B9F64B-DBA6-480E-9FD0-E16FE2703BCE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E123DD82-DA4A-4385-9D1B-029D73910EAA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{BEE6AB98-589B-4319-8868-2CAA5C05CF42}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\SolutionInfo.cs = Properties\SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{ACD98D04-FAA9-45AA-87C9-318894A2DD3A}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy\Deploy-ReadMe.txt = Deploy\Deploy-ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Xml.Transformation.On.Build.Tests.ConsoleApplication", "HansKindberg.Xml.Transformation.On.Build.Tests.ConsoleApplication\HansKindberg.Xml.Transformation.On.Build.Tests.ConsoleApplication.csproj", "{A9AD5423-1FEE-44C8-A7B0-6DE75714E819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Xml.Transformation.On.Build.Tests.WebApplication", "HansKindberg.Xml.Transformation.On.Build.Tests.WebApplication\HansKindberg.Xml.Transformation.On.Build.Tests.WebApplication.csproj", "{07F65371-1C39-4511-9A35-248E41812311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg-Xml-Transformation-Build-Files", "HansKindberg-Xml-Transformation-Build-Files\HansKindberg-Xml-Transformation-Build-Files.csproj", "{9F497B5E-ADF5-48E9-B7B8-24FE3FE35203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg-Xml-Transformation-On-Build", "HansKindberg-Xml-Transformation-On-Build\HansKindberg-Xml-Transformation-On-Build.csproj", "{F7BFB45E-3653-49C6-B8ED-997CB2228C00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{3698E1BA-A39A-4B04-B74F-1945A419C86C}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.props = Build\Build.props
+		Build\Build.targets = Build\Build.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35D87DB-FD15-42CA-99A6-9F8EF288E204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35D87DB-FD15-42CA-99A6-9F8EF288E204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35D87DB-FD15-42CA-99A6-9F8EF288E204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35D87DB-FD15-42CA-99A6-9F8EF288E204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AD5423-1FEE-44C8-A7B0-6DE75714E819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AD5423-1FEE-44C8-A7B0-6DE75714E819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AD5423-1FEE-44C8-A7B0-6DE75714E819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AD5423-1FEE-44C8-A7B0-6DE75714E819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F65371-1C39-4511-9A35-248E41812311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F65371-1C39-4511-9A35-248E41812311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F65371-1C39-4511-9A35-248E41812311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F65371-1C39-4511-9A35-248E41812311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F497B5E-ADF5-48E9-B7B8-24FE3FE35203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F497B5E-ADF5-48E9-B7B8-24FE3FE35203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F497B5E-ADF5-48E9-B7B8-24FE3FE35203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F497B5E-ADF5-48E9-B7B8-24FE3FE35203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BFB45E-3653-49C6-B8ED-997CB2228C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BFB45E-3653-49C6-B8ED-997CB2228C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BFB45E-3653-49C6-B8ED-997CB2228C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BFB45E-3653-49C6-B8ED-997CB2228C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
